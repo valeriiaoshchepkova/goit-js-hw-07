@@ -1,0 +1,170 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .navigation-list {
+        display: none;
+    }
+
+    .contacts {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .page-header {
+        padding-bottom: 10px;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation-list {
+        margin-left: 123px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .contact-item {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .studio-page-header {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url('../images/studio/bg-image-tablet.jpg');
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .studio-page-header {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url('../images/studio/bg-image-tablet2@.jpg');
+        }
+    }
+
+    .page-header-title {
+        max-width: 496px;
+        font-size: 56px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .features-card-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .features-card-item {
+        width: 356px;
+    }
+
+    .features-card-title {
+        text-align: left;
+    }
+}
+@media screen and (min-width: 768px) {
+    .team-card-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .customers-company-list {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .customers-company-icon {
+        width: 168px;
+        height: 88px;
+    }
+
+    .customers-company-logo {
+        width: 104px;
+        height: 56px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .portfolio-section {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .filter-items {
+        justify-content: center;
+        width: auto;
+    }
+
+    .filter-btn {
+        padding: 12px 24px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .portfolio-card-items {
+        margin-top: 64px;
+        gap: 48px 24px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 408px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .footer-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 92px;
+    }
+
+    .footer-container {
+        margin-left: 0;
+        margin-right: 0;
+        align-items: flex-start;
+    }
+
+    .social-media-container {
+        margin-top: 0;
+        margin-left: 24px;
+    }
+
+    .footer-box-label{
+        text-align: start;
+    }
+
+    .footer-box-title {
+        text-align: start;
+    }
+
+    .form-box{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mail-subscribe {
+        width: 264px;
+    }
+
+    .subscribe-btn {
+        margin-top: 0;
+        margin-left: 24px;
+    }
+}
